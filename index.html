@@ -164,7 +164,7 @@ async function startSensor(){
 function motion(e){
   let a=e.accelerationIncludingGravity;if(!a)return;let mag=Math.sqrt((a.x||0)**2+(a.y||0)**2+(a.z||0)**2),now=Date.now();
   if(Math.abs(mag-9.8)>2.0&&now-lastPeak>350){lastPeak=now;let r=data.steps[today()]||{count:0,manual:false,celebrated:false};r.count++;data.steps[today()]=r;save();maybeCelebrate();render()}
-}
+alert("JS 開始跑咗");
 checkReminder();render();
 </script>
 </body>
