@@ -1,0 +1,18 @@
+{
+  "name": "Steps and Gym",
+  "short_name": "Steps & Gym",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3b82f6",
+  "description": "步数、健身任务与每日打卡",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
